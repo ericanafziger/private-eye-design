@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box; }
+
+.header {
+  height: 190px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .header img {
+    max-height: 100%; }
+  .header .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%; }
+    .header .icons img {
+      width: 76px; }
+
+.image-holder {
+  display: flex;
+  align-items: center; }
+  .image-holder p {
+    font-size: 14px;
+    padding-left: 5px; }
+
+nav {
+  background: #354343;
+  height: 54px; }
+  nav ul {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    color: #F5FAFA;
+    align-items: center;
+    height: 100%; }
+    nav ul li {
+      padding-right: 50px;
+      text-transform: uppercase;
+      font-weight: 200;
+      font-size: 14px; }
+
+.hero {
+  width: 1000px;
+  margin: 40px auto;
+  background-image: url(../img/hero.png);
+  height: 397px;
+  background-size: cover;
+  position: relative; }
+  .hero h1 {
+    color: #F5FAFA;
+    position: absolute;
+    bottom: 20%;
+    font-size: 55px;
+    width: 40%;
+    font-weight: normal;
+    left: 40px; }
+  .hero .button {
+    display: block;
+    background-color: rgba(239, 0, 0, 0.5);
+    width: 202px;
+    height: 55px;
+    color: #F5FAFA;
+    text-decoration: none;
+    font-size: 21px;
+    border-radius: 7px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20%;
+    right: 40px; }
+
+.information {
+  max-width: 1000px;
+  display: flex;
+  margin: auto; }
+  .information .categories {
+    height: 371px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .information .holder {
+    display: flex;
+    align-items: center; }
+    .information .holder h6 {
+      padding-left: 10px;
+      width: 171px;
+      font-size: 18px;
+      color: #354343;
+      font-weight: 500; }
+  .information .selectedText {
+    background: #E1E3E3;
+    width: 100%;
+    padding: 40px; }
+    .information .selectedText h3 {
+      color: #354343;
+      font-size: 36px; }
+    .information .selectedText .lineBreak {
+      height: 3px;
+      width: 100%;
+      background: #018A90;
+      margin: 20px 0; }
+  .information .textContainer {
+    display: flex; }
+    .information .textContainer .leftText, .information .textContainer .rightText {
+      width: 50%;
+      padding: 0 20px; }
+    .information .textContainer .leftText {
+      line-height: 25px; }
+    .information .textContainer .rightText li {
+      line-height: 25px; }
+
+/*# sourceMappingURL=styles.css.map */
