@@ -6,9 +6,9 @@
 ## Setup/Installation Requirements
 
 * _View at: [https://ericanafziger.github.io/private-eye-design/](https://ericanafziger.github.io/private-eye-design/)_
-* _Or clone this repository from GitHub
-* _Run cd private-eye-design in terminal 
-* _ gem install sass in terminal and them sass --watch scss:css 
+* _Or clone this repository from GitHub_
+* _Run cd private-eye-design in terminal_ 
+* _gem install sass in terminal and them sass --watch scss:css_ 
 * _Now index.html can be viewed in the browser_
 
 ## Known Bugs
